@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  boder:none;
+}
+body{
+  font_family:/*英文*/Arial,Verdana,/*中文*/"SimSun","Microsoft YaHei"/*(苹果系统:平方字体)*/;
+  font_size:14px;
+  width: 100%;
+  height: 100%;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clear {
+  clear: both;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
