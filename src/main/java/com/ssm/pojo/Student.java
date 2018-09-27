@@ -3,15 +3,23 @@ package com.ssm.pojo;
 public class Student {
 	
 	private String name;
+	private String studentNumber;
 	private String teacherName;
-	private int classID;
+	private String classID;
 	
 	
-	public int getClassid() {
+	
+	public String getStudentNumber() {
+		return studentNumber;
+	}
+	public void setStudentNumber(String studentNumber) {
+		this.studentNumber = studentNumber;
+	}
+	public String getClassID() {
 		return classID;
 	}
-	public void setClassid(int classid) {
-		this.classID = classid;
+	public void setClassID(String classID) {
+		this.classID = classID;
 	}
 	public String getName() {
 		return name;

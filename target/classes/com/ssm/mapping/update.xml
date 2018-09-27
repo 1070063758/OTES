@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ssm.dao.updateMapper">
+
+
+	<insert id="updateStudent" parameterType="String">
+		insert student(name,studentNumber,classID) values(#{name},#{studentNumber},#{classID})
+	</insert>
+	
+	<insert id="updateStudent" parameterType="String">
+		insert teacher(name,teacherid,departid,courseID) values(#{name},#{teacherid},#{departid},#{courseID})
+	</insert>
+
+</mapper>

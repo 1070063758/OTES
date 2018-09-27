@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.ssm.dao.studentMapper;
 import com.ssm.pojo.Student;
-import com.ssm.pojo.User;
 import com.ssm.service.IStudentService;
 
 @Service("studentService")
